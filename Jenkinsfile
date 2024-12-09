@@ -2,12 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('stage-1': Brand) {
+        stage('stage-1: Brand') {
             steps {
                 echo '1. Dell'
             }
         }
-	stage('stage-2: Phone' ){
+	stage('stage-2: Phone'){
 	    steps {
 		echo '1. Pixel'
 		echo '2. Vivo'
@@ -70,7 +70,7 @@ pipeline {
 		echo '8. Newyork'
 	    }
 	}
-	stage('stage-9': Places){
+	stage('stage-9: Places'){
 	    steps{
 		echo '1. Pondy'
 		echo '2. Chennai'
