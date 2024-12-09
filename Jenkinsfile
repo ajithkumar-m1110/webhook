@@ -7,7 +7,7 @@ pipeline {
                 echo 'Hello World'
             }
         }
-	stage('stage-2': Phone ){
+	stage('stage-2'){
 	    steps{
 		echo 'Vivo'
 	}
